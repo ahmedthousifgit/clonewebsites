@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 50px;
+    /* padding: 40px; */
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+
+}
+
+
+.nav-ul li a{
+    text-decoration: none;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #212529 !important;
+}
+
+.part-1 {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+
+}
+
+.g-logo {
+    width: 40p;
+    height: 40px;
+}
+
+.part-2 {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+
+}
+
+.text-search {
+    width: 14rem;
+    border-radius: 18px;
+    padding: 7px;
+    padding-left: 16px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+}
+
+.profile-logo {
+    cursor: pointer;
+}
+
+header-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #1e3932;
+    width: 100%;
+    height: 75px;
+}
+
+.world {
+    width: 50%;
+    /* background-color: yellow; */
+
+}
+
+.know {
+    width: 7%;
+    text-align: start;
+
+    /* background-color: yellow; */
+}
+
+.world>p {
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 30;
+    font-family: SoDoSans_Light, Helvetica, sans-serif !important;
+    /* margin-bottom: 0; */
+}
+
+.know-button {
+    height: 35px;
+    width: 92px;
+    border-radius: 21px;
+    border-color: #fff;
+    background-color: #1e3932;
+    color: #fff;
+    border-top-color: gray;
+
+}
+
+main h2 {
+    color: #1e3932;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif !important;
+    margin-top: 35px;
+    margin-left: 10rem;
+    font-size: 28px;
+}
+
+.coffee {
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 26px;
+    /* background-color: yellow; */
+    margin-left: 20px;
+
+}
+
+.cofeeee {
+
+    border-radius: 50%;
+    height: 108px;
+    width: 108px;
+
+}
+
+main {
+    /* background-color: yellowgreen; */
+
+}
+
+.empty {
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 85px;
+}
+
+main-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00754a;
+    border-radius: 13px;
+    height: 13rem;
+    color: #fff;
+    width: 82%;
+    margin-left: 126px;
+
+    /* height: 40px; */
+
+}
+
+.cup {
+    margin: 0;
+    align-self: flex-end;
+
+}
+
+.sip {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    line-height: 2rem;
+}
+
+.sip-on {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+}
+
+.balck-cup {
+    height: 150px;
+    width: 110px;
+}
+
+.Order {
+    height: 37px;
+    width: 9rem;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background: #fff;
+}
+
+.o-button {
+    align-self: flex-end;
+    margin-bottom: 25px;
+    margin-right: 12px;
+}
+
+.swipe {
+    /* background-color: aqua; */
+    height: 4rem;
+    text-align: center;
+    position: relative;
+    left: 34px;
+}
+
+.last-offering h2 {
+    color: #1e3932;
+    font-family: Helvetica, sans-serif !important;
+    margin-top: 35px;
+    margin-left: 8rem;
+    font-size: 28px;
+    /* background-color: yellow; */
+}
+
+/* menuuu */
+
+
+.card-wrap{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    width: 82%;
+    /* background-color: aquamarine; */
+}
+.details{
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px #00000012, 0 4px 5px #0000000f, 0 1px 10px #0000001a;
+     
+}
+.details h3{
+    font-size: 15px;
+    color: #1e3932;
+    font-weight: 500;
+}
+.details > img{
+    height: 16px;
+    width: 16px;
+    size: 2px;
+}
+
+.card-wrap > .card{
+    border-radius: 14px;
+    height: 300px;
+    width: 400px;
+}
+
+.card-wrap img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card-wrap .details{
+    padding: 20px 20px;
+    line-height: 20px;
+}
+
+.card-wrap .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card h5{
+    font-size: 7px;
+    color: #000000de;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 500;
+}
+.card p{
+    font-weight: 30;
+    font-family: Helvetica, sans-serif !important;
+    font-size: 11px;
+}
+.price >p{
+   font-size: 16px;
+   font-weight: bold;
+  
+}
+.price >button{
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    background-color: #00754a;
+    border: none;
+    border-radius: 21px;
+    color: #f9f9f9;
+    font-family: Helvetica,sans-serif;
+    outline: none;
+}
+
+/* barista */
+
+.barista{
+    width: 100%;
+    height: 90px;
+    background-color: #edebe9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.barista > h3{
+    font-family: SoDoSans_Bold,Helvetica,sans-serif!important;
+    color: #1e3932;
+}
+.barista > button{
+    border: none;
+    color: #00754a;
+    background-color:  #edebe9;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.puff-container{
+    width: 100%;
+    background-color: #edebe9;
+    height: 215px;
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-evenly;
+    gap: 5px;
+    border-color: #212529;
+    border: #212529;
+}
+
+.card-2{
+    background-color: white;
+    height: 160px;
+    width: 25%;
+    /* display: flex;
+    justify-content: space-around; */
+    margin-left: 10px;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+    border-radius: 8px;
+    
+}
+.hazelnut{
+    width: 100%;
+    /* background-color: pink; */
+    height: 105px; 
+    display: flex;
+    align-items: center;
+
+}
+.hz{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: 25px;
+
+}
+.vg{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+
+}
+.food{
+    color: #000;
+    font-size: 14px;
+    font-family: Helvetica,sans-serif!important;
+    margin-left: -16px;
+}
+.shortt{
+    font-size: 7px;
+    color: #000000de;
+    font-family: Helvetica, sans-serif !important;
+    font-weight: 500;
+}
+.price-2 {
+    /* background-color: violet; */
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    background-color: #00754a;
+    border: none;
+    border-radius: 21px;
+    color: #f9f9f9;
+    font-family: Helvetica,sans-serif;
+    outline: none;
+}
+main-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 162px;
+    margin-top: 10px;
+
+}
+
+/* cofeebean */
+
+.learn{
+    width: 100%;
+    height: 93px;
+    background-color: #edebe9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.learn button{
+    border: none;
+    color: #00754a;
+    background-color:  #edebe9;
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.learn p {
+    font-family:Helvetica,sans-serif!important;
+    color: #1e3932;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-weight: 600;
+}
+
+.backimg{
+    background-color:  #edebe9;
+    
+    width: 100%;
+    height: 400px;
+}
+.cofeeculture{
+    background-color: black;
+    width: 85%;
+    height: 355px;
+    margin-left: 100px;
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg");
+    background-size: cover;
+    border-radius: 8px;
+}
+.cofeeculture:hover{
+    color: #212529;
+    transition: 0.4s ease;
+}
+.culture{
+    font-size: 28px;
+    font-family:Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: .5em!important;
+    margin-left: 15px;
+    margin-top: ;
+}
+.hh{
+    font-size: 14px;
+    font-family:Helvetica,sans-serif!important;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.more{
+    height: 33px;
+    width: 11rem;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background: #fff;
+    font-weight: bold;
+    margin-top: 14rem;
+    margin-left: 15px;
+}
+
+.footer{
+    width: 100%;
+    height: 325px;
+    background-color: #0e382c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    color: #f9f9f9;
+}
+.description-container{
+    width: 80%;
+    height: 280px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo-sec{
+    /* background-color: rosybrown; */
+    height: 250px;
+    width: 15%;
+    color: #fff;
+    
+}
+.cofee-house li a  {
+    color: #fff;
+    text-decoration: none;
+}
+/* .cofee-house {
+    color: #fff;
+}
+.all{
+    color: #fff;
+} */
+
+
+.s-logo{
+    width: 40p;
+    height: 70px;
+    
+}
+.cofee-house{
+    list-style: none;
+    text-emphasis: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* line-height: 10px; */
+}
+.cofee-house span{
+    font-weight: bold;
+
+}
+.cofee-house li :hover{
+    color: gray;
+    transition: 0.4s ease;
+}
+.insta{
+    display: flex;
+    margin-top: 10px;
+
+}
+.logo-sec .app{
+    width: 175px;
+    height: 58px;
+}
+.final-footer{
+    height: 70px;
+    width: 100%;
+    background-color: #0e382c;
+  
+}
+.terms{
+    display: flex;
+    justify-content: start;
+    
+ 
+    
+}
+.terms li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.web
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+    /* background-color: yellow; */
+    margin-left: 204px;
+}
+.reserved{
+   font-size: 12px;
+   
+}
+.reserved li a{
+    list-style: none;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
